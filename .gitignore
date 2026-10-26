@@ -1,0 +1,18 @@
+# secrets and keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+keystore/
+*.keystore
+
+# tooling
+node_modules/
+out/
+cache/
+broadcast/
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
